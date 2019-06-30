@@ -1,1 +1,1 @@
-web: gunicorn awwwardz.wsgi
+web: gunicorn awwwardz.wsgi --log-file -
