@@ -19,3 +19,6 @@ This is an application called Awards named as Awwwardzz. It allows the user to c
 |User wants to search for a profile| They enter the profile name on the search bar |all relevant profiles are displayed|
 |User wants to view the project descriptions|They go through the project |Project descriptions are displayed|
 |User want to upload my project| One can rate my project and comment on it |
+
+## CONTACT INFORMATION
+For more information or clarification reach me through my email address : sgalaano@gmail.com
