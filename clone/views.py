@@ -114,7 +114,7 @@ def profile(request,id):
 
 
 @login_required(login_url='/accounts/login/')
-def new_project(request):
+def new_project(request)
     disp_user = request.user
     current_user = Profile.objects.get(username__id=request.user.id)
     if request.method == 'POST':
@@ -164,4 +164,4 @@ class ProjectList(APIView):
     def get(self, request, format=None):
         all_projectz = Project.objects.all()
         serializers = ProjectSerializer(all_projectz, many=True)
-        return Response(serializers.data).
+        return Response(serializers.data)
