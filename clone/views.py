@@ -114,7 +114,7 @@ def profile(request,id):
 
 
 @login_required(login_url='/accounts/login/')
-def new_project(request)
+def new_project(request):
     disp_user = request.user
     current_user = Profile.objects.get(username__id=request.user.id)
     if request.method == 'POST':
