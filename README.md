@@ -16,7 +16,7 @@ This is an application called Awards named as Awwwardzz. It allows the user to c
 ## BEHAVIOUR DRIVEN DEVELOPMENT
 | GENERAL BEHAVIOUR | INPUT | OUTPUT|
 |:------------------|:--------|:-----------|
-|User wants to search for a profile| They enter the profile name on the search bar |all relevant profiles are displayed|
+|User wants to search for a project| They enter the project name on the search bar |all relevant projects are displayed|
 |User wants to view the project descriptions|They go through the project |Project descriptions are displayed|
 |User want to upload my project| One can rate my project and comment on it |
 
