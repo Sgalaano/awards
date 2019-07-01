@@ -25,4 +25,3 @@ urlpatterns = [
     url(r'^logout/$', views.logout, {"next_page": '/'}),
     url(r'^tinymce/', include('tinymce.urls')),
 
-]
