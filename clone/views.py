@@ -164,4 +164,4 @@ class ProjectList(APIView):
     def get(self, request, format=None):
         all_projectz = Project.objects.all()
         serializers = ProjectSerializer(all_projectz, many=True)
-        return Response(serializers.data)
+        return Response(serializers.data).
