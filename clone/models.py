@@ -35,7 +35,7 @@ class Profile(models.Model):
 
 
 
-class Project(models.Model):
+class Project(models.Model)
     title = models.CharField(max_length=200,)
     uploaded_by = models.ForeignKey(Profile, related_name='poster')
     landing_image = models.ImageField(upload_to='photos/',)
